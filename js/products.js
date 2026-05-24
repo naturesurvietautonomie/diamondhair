@@ -373,7 +373,7 @@ const PRODUCTS = [
     price: 16,
     description: "Pack de 6 mèches goddess locs bouclées 20 pouces. Les goddess locs ont des bouts bouclés et ondulés qui donnent un aspect bohème et romantique. La coiffure protectrice la plus tendance du moment.",
     benefits: ['Bouts bouclés bohèmes', 'Style goddess tendance', 'Pack x6', 'Coiffure protectrice'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh37_goddess_locs.jpg',
     stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g'
   },
   {
@@ -383,7 +383,7 @@ const PRODUCTS = [
     price: 17,
     description: "Pack de 4 mèches faux locks distressed 36 pouces très longues. L'effet distressed (\"usé\") reproduit l'aspect naturel des vraies dreadlocks avec de légères irrégularités pour un rendu authentique et organique.",
     benefits: ['Très longues 36 pouces', 'Effet naturel authentique', 'Aspect dreadlocks vraies', 'Pack x4'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh38_distressed_locs.jpg',
     stripe: 'https://buy.stripe.com/9B68wH62L98d2V52bAcfL0h'
   },
   {
@@ -393,7 +393,7 @@ const PRODUCTS = [
     price: 15,
     description: "Pack de 6 mèches faux locks boho 28 pouces avec fils de couleur et perles intégrés pour un look hippie chic. La coiffure protectrice idéale pour l'été, les festivals et tous ceux qui veulent afficher leur personnalité.",
     benefits: ['Style boho hippie', 'Fils colorés décoratifs', 'Pack x6', 'Parfait pour l\'été'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh39_boho_locs.jpg',
     stripe: 'https://buy.stripe.com/28E4gr1Mv98d2V56rQcfL0i'
   },
   {
@@ -403,7 +403,7 @@ const PRODUCTS = [
     price: 14,
     description: "Pack de 6 mèches soft locs pré-bouclées 18 pouces. Les soft locs sont plus légères et plus douces que les faux locks classiques. Leur texture cotonneuse et leur légèreté en font la coiffure protectrice la plus confortable.",
     benefits: ['Ultra-légères et douces', 'Pré-bouclées express', 'Pack x6', 'Coiffure la plus confortable'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh40_soft_locs.jpg',
     stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j'
   },
   {
@@ -413,7 +413,7 @@ const PRODUCTS = [
     price: 13,
     description: "Pack de 6 mèches passion twist 18 pouces. Les passion twists ont une texture unique, entre le twist et les locks, avec un aspect soyeux et brillant très élégant. Coiffure protectrice tendance et facile à poser.",
     benefits: ['Texture soyeuse unique', 'Entre twist et locks', 'Aspect brillant élégant', 'Pack x6'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh41_passion_twist.jpg',
     stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k'
   },
   {
@@ -423,7 +423,7 @@ const PRODUCTS = [
     price: 12,
     description: "Pack de 6 mèches spring twist courts 10 pouces. Les spring twists ont une texture spiralée unique et très légère. Le format court 10 pouces est idéal pour une coiffure protectrice décontractée et facile à porter au quotidien.",
     benefits: ['Format court pratique', 'Texture spiralée légère', 'Pack x6', 'Idéal au quotidien'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh42_spring_twist.jpg',
     stripe: 'https://buy.stripe.com/dRm00b8aTbgl67heYmcfL0l'
   },
   {
@@ -433,7 +433,7 @@ const PRODUCTS = [
     price: 16,
     description: "Pack de 6 mèches butterfly locs 20 pouces. Les butterfly locs sont caractérisées par leurs boucles désordonnées et légères qui évoquent des ailes de papillon. LA coiffure tendance des réseaux sociaux en 2024-2025.",
     benefits: ['LA coiffure tendance', 'Boucles légères papillon', 'Viral sur réseaux sociaux', 'Pack x6'],
-    img: 'images/dh36_faux_locks.jpg',
+    img: 'images/dh43_butterfly_locs.jpg',
     stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m'
   },
 
