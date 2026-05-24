@@ -455,7 +455,7 @@ const PRODUCTS = [
     price: 11,
     description: "Gel spécialisé pour démarrer et retightener ses locks sans laisser de résidus blancs. Sa formule légère donne de la tenue, resserre les nouvelles pousses et garde les locks propres et bien définies entre les retouches.",
     benefits: ['Zéro résidu blanc', 'Retightening facile', 'Resserre les pousses', 'Entre les retouches'],
-    img: 'images/dh44_cire_locks.jpg',
+    img: 'images/dh45_gel_locks.jpg',
     stripe: 'https://buy.stripe.com/bJeeV5fDlckp3Z92bAcfL0o'
   },
   {
@@ -465,7 +465,7 @@ const PRODUCTS = [
     price: 9,
     description: "Spray quotidien léger pour hydrater et rafraîchir les locks entre les lavages. Sa formule à base d'aloe vera, d'eau de coco et d'huiles légères nourrit les locks sans les alourdir ni favoriser les moisissures.",
     benefits: ['Usage quotidien', 'Aloe vera + eau de coco', 'N\'alourdit pas les locks', 'Anti-moisissures'],
-    img: 'images/dh44_cire_locks.jpg',
+    img: 'images/dh46_spray_locks.jpg',
     stripe: 'https://buy.stripe.com/eVq9AL62LckpcvF5nMcfL0p'
   },
   {
@@ -475,7 +475,7 @@ const PRODUCTS = [
     price: 9,
     description: "Mélange premium d'huile de ricin et d'argan spécialement formulé pour les locks. L'huile de ricin nourrit et épaissit, l'argan apporte brillance et protection. À appliquer sur les locks et le cuir chevelu pour un résultat éclatant.",
     benefits: ['Ricin + argan premium', 'Locks plus épaisses', 'Brillance intense', 'Cuir chevelu nourri'],
-    img: 'images/dh44_cire_locks.jpg',
+    img: 'images/dh47_huile_locks.jpg',
     stripe: 'https://buy.stripe.com/aFa8wHbn5fwBcvF7vUcfL0q'
   },
   {
@@ -485,7 +485,7 @@ const PRODUCTS = [
     price: 10,
     description: "Shampooing spécialement formulé pour les locks : nettoie en profondeur sans laisser de résidus dans les mèches. Sa formule clarifiante élimine les dépôts de produits, la pollution et les résidus de cire accumulés au fil du temps.",
     benefits: ['Élimine les dépôts', 'Aucun résidu dans les locks', 'Clarifiant profond', 'Locks propres et légères'],
-    img: 'images/dh44_cire_locks.jpg',
+    img: 'images/dh48_shampoing_locks.jpg',
     stripe: 'https://buy.stripe.com/3cI6ozaj1gAF1R17vUcfL0r'
   },
   {
@@ -495,7 +495,7 @@ const PRODUCTS = [
     price: 10,
     description: "Beurre de karité pur pour locks, formulé pour nourrir en profondeur les mèches sèches et les pointes abîmées. Sa texture riche et fondante pénètre la fibre des locks pour une hydratation durable et une souplesse retrouvée.",
     benefits: ['Karité pur pour locks', 'Nourrit pointes abîmées', 'Hydratation durable', 'Souplesse retrouvée'],
-    img: 'images/dh44_cire_locks.jpg',
+    img: 'images/dh49_beurre_locks.jpg',
     stripe: 'https://buy.stripe.com/aFabITcr9ckp3Z92bAcfL0s'
   },
   {
@@ -505,7 +505,7 @@ const PRODUCTS = [
     price: 9,
     description: "Sérum léger de finition pour les locks. Quelques gouttes suffisent pour apporter une brillance éclatante, sceller l'humidité et protéger les locks des agressions extérieures (UV, pollution, sécheresse). Le touche finale d'une routine locks parfaite.",
     benefits: ['Brillance éclatante', 'Scelle l\'humidité', 'Protection UV', 'Quelques gouttes suffisent'],
-    img: 'images/dh44_cire_locks.jpg',
+    img: 'images/dh50_serum_locks.jpg',
     stripe: 'https://buy.stripe.com/aFa14f62L98dcvFaI6cfL0t'
   },
 
