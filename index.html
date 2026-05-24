@@ -36,29 +36,16 @@
 
 <!-- STATS -->
 <div class="stats-band">
-  <div class="stat-item">
-    <div class="stat-num">55</div>
-    <div class="stat-label">Produits</div>
-  </div>
-  <div class="stat-item">
-    <div class="stat-num">6</div>
-    <div class="stat-label">Catégories</div>
-  </div>
-  <div class="stat-item">
-    <div class="stat-num">4€</div>
-    <div class="stat-label">À partir de</div>
-  </div>
-  <div class="stat-item">
-    <div class="stat-num">🚀</div>
-    <div class="stat-label">Livraison rapide</div>
-  </div>
+  <div class="stat-item"><div class="stat-num">55</div><div class="stat-label">Produits</div></div>
+  <div class="stat-item"><div class="stat-num">6</div><div class="stat-label">Catégories</div></div>
+  <div class="stat-item"><div class="stat-num">4€</div><div class="stat-label">À partir de</div></div>
+  <div class="stat-item"><div class="stat-num">🚀</div><div class="stat-label">Livraison rapide</div></div>
 </div>
 
 <!-- CATALOGUE -->
 <section class="catalogue-section" id="catalogue">
   <h2 class="section-title">Notre Boutique</h2>
   <p class="section-sub">Extensions, perruques, faux locks et soins pour tous types de cheveux</p>
-
   <div class="filters" id="filters"></div>
   <div class="products-grid" id="products-grid"></div>
 </section>
@@ -95,7 +82,6 @@
   <div class="footer-links">
     <a href="cgv.html">CGV</a>
     <a href="mailto:naturesurvi@gmail.com">Contact</a>
-    <a href="mentions-legales.html">Mentions légales</a>
   </div>
   <p>© 2026 DiamondHair — Bègles, France — <a href="mailto:naturesurvi@gmail.com">naturesurvi@gmail.com</a></p>
 </footer>
@@ -111,6 +97,14 @@
       <div class="modal-subtitle" id="modal-subtitle"></div>
       <p class="modal-desc" id="modal-desc"></p>
       <ul class="modal-benefits" id="modal-benefits"></ul>
+
+      <!-- Sélecteur de couleur (affiché si variantes) -->
+      <div class="color-selector" id="color-selector" style="display:none">
+        <div class="color-label">🎨 Choisissez votre couleur :</div>
+        <div class="color-options" id="color-options"></div>
+        <div class="color-selected-name" id="color-selected-name"></div>
+      </div>
+
       <div class="modal-price" id="modal-price"></div>
       <a href="#" class="btn-stripe" id="modal-btn" target="_blank">💳 Commander maintenant</a>
     </div>
@@ -120,17 +114,17 @@
 <script src="js/products.js"></script>
 <script>
 const CAT_LABELS = {
-  soins: '💧 Soins & Huiles',
-  extensions: '💇 Extensions',
-  perruques: '👑 Perruques',
-  'locks-faux': '🔒 Faux Locks',
-  'locks-soin': '🌿 Soins Locks',
+  soins:       '💧 Soins & Huiles',
+  extensions:  '💇 Extensions',
+  perruques:   '👑 Perruques',
+  'locks-faux':'🔒 Faux Locks',
+  'locks-soin':'🌿 Soins Locks',
   accessoires: '🪮 Accessoires'
 };
 
 let currentCat = 'all';
 
-// FILTRES
+// ── FILTRES ──────────────────────────────────────────────────
 const filtersEl = document.getElementById('filters');
 CATEGORIES.forEach(cat => {
   const btn = document.createElement('button');
@@ -145,27 +139,44 @@ CATEGORIES.forEach(cat => {
   filtersEl.appendChild(btn);
 });
 
-// PRODUITS
+// ── RENDU PRODUITS ───────────────────────────────────────────
 function renderProducts() {
   const grid = document.getElementById('products-grid');
-  const filtered = currentCat === 'all' ? PRODUCTS : PRODUCTS.filter(p => p.cat === currentCat);
-  grid.innerHTML = filtered.map(p => `
+  const list = currentCat === 'all' ? PRODUCTS : PRODUCTS.filter(p => p.cat === currentCat);
+
+  grid.innerHTML = list.map(p => {
+    const hasVariants = p.variants && p.variants.length > 0;
+    const variantBadge = hasVariants
+      ? `<div class="card-variants-badge">🎨 ${p.variants.length} couleurs disponibles</div>`
+      : '';
+    return `
     <div class="product-card" onclick="openModal('${p.id}')">
-      <img src="${p.img}" alt="${p.name}" class="card-img" loading="lazy" onerror="this.style.background='#f0ece4';this.style.display='block'">
+      <img src="${p.img}" alt="${p.name}" class="card-img" loading="lazy"
+           onerror="this.style.background='#1a1a1a'">
       <div class="card-body">
         <div class="card-cat">${CAT_LABELS[p.cat] || p.cat}</div>
         <div class="card-name">${p.name}</div>
         <div class="card-subtitle">${p.subtitle}</div>
-        <div class="card-price">${p.price}€ <span>TTC, livraison incluse</span></div>
-        <button class="btn-buy" onclick="event.stopPropagation(); openStripe('${p.id}')">⚡ Acheter</button>
+        ${variantBadge}
+        <div class="card-price">${p.price}€ <span>TTC</span></div>
+        <button class="btn-buy" onclick="event.stopPropagation(); openModal('${p.id}')">
+          ${hasVariants ? '🎨 Choisir ma couleur' : '⚡ Acheter'}
+        </button>
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
 }
+
+// ── MODAL ────────────────────────────────────────────────────
+let currentProduct = null;
+let selectedVariantIndex = 0;
 
 function openModal(id) {
   const p = PRODUCTS.find(x => x.id === id);
   if (!p) return;
+  currentProduct = p;
+  selectedVariantIndex = 0;
+
   document.getElementById('modal-img').src = p.img;
   document.getElementById('modal-img').alt = p.name;
   document.getElementById('modal-cat').textContent = CAT_LABELS[p.cat] || p.cat;
@@ -174,26 +185,65 @@ function openModal(id) {
   document.getElementById('modal-desc').textContent = p.description;
   document.getElementById('modal-benefits').innerHTML = p.benefits.map(b => `<li>${b}</li>`).join('');
   document.getElementById('modal-price').textContent = p.price + '€';
-  document.getElementById('modal-btn').href = p.stripe;
+
+  // Variantes couleur
+  const colorSelector = document.getElementById('color-selector');
+  const colorOptions  = document.getElementById('color-options');
+  const colorName     = document.getElementById('color-selected-name');
+  const btn           = document.getElementById('modal-btn');
+
+  if (p.variants && p.variants.length > 0) {
+    colorSelector.style.display = 'block';
+    colorOptions.innerHTML = '';
+
+    p.variants.forEach((v, i) => {
+      const swatch = document.createElement('div');
+      swatch.className = 'color-swatch' + (i === 0 ? ' selected' : '');
+      swatch.title = v.couleur;
+
+      if (v.hex === 'ombre') {
+        // Dégradé ombré
+        swatch.style.background = 'linear-gradient(135deg, #1a1a1a 40%, #c8922a 100%)';
+        swatch.innerHTML = '<span style="font-size:10px;color:#fff;text-align:center;line-height:1.2">✦</span>';
+      } else {
+        swatch.style.background = v.hex;
+        // Ajouter un contour si couleur très claire
+        if (['#e8d5a3','#f0e6c8'].includes(v.hex)) {
+          swatch.style.border = '2px solid #c9a84c';
+        }
+      }
+
+      swatch.onclick = () => {
+        document.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('selected'));
+        swatch.classList.add('selected');
+        selectedVariantIndex = i;
+        colorName.textContent = '✓ ' + v.couleur;
+        btn.href = v.stripe;
+      };
+      colorOptions.appendChild(swatch);
+    });
+
+    // Sélection par défaut
+    colorName.textContent = '✓ ' + p.variants[0].couleur;
+    btn.href = p.variants[0].stripe;
+
+  } else {
+    colorSelector.style.display = 'none';
+    btn.href = p.stripe;
+  }
+
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
-function openStripe(id) {
-  const p = PRODUCTS.find(x => x.id === id);
-  if (p) window.open(p.stripe, '_blank');
-}
-
 document.getElementById('modal-close').onclick = closeModal;
-document.getElementById('modal-overlay').onclick = function(e) {
-  if (e.target === this) closeModal();
-};
+document.getElementById('modal-overlay').onclick = e => { if (e.target === document.getElementById('modal-overlay')) closeModal(); };
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
 function closeModal() {
   document.getElementById('modal-overlay').classList.remove('open');
   document.body.style.overflow = '';
 }
-
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 renderProducts();
 </script>
