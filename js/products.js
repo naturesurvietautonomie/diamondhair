@@ -77,7 +77,7 @@ const PRODUCTS = [
     price: 10,
     description: "Formulé avec de l'extrait de romarin et de la biotine, ce shampooing spécialisé stimule la microcirculation du cuir chevelu pour une pousse accélérée. Convient aux cheveux à croissance lente ou clairsemés.",
     benefits: ['Romarin + biotine', 'Stimule la microcirculation', 'Croissance accélérée', 'Cuir chevelu purifié'],
-    img: 'images/dh01_huile_romarin.jpg',
+    img: 'images/dh08_shampoing_croissance.jpg',
     stripe: 'https://buy.stripe.com/28EbITgHpach1R1cQecfK3V'
   },
   {
@@ -97,7 +97,7 @@ const PRODUCTS = [
     price: 10,
     description: "Un masque professionnel à l'huile d'argan pour des soins hebdomadaires en profondeur. Laissé 15-20 minutes sous une charlotte chauffante, il pénètre la fibre pour réparer, nourrir et redonner de la vie aux cheveux ternes.",
     benefits: ['Soin en profondeur', 'Répare et nourrit', 'Brillance intense', 'Usage hebdomadaire'],
-    img: 'images/dh02_huile_argan.jpg',
+    img: 'images/dh10_masque_argan.jpg',
     stripe: 'https://buy.stripe.com/28E7sD1Mv98d9jt6rQcfK3X'
   },
   {
@@ -107,7 +107,7 @@ const PRODUCTS = [
     price: 11,
     description: "Ce masque protéiné à la kératine est conçu pour les cheveux très abîmés, décolorés ou surtraités. Il reconstruit la structure interne de la fibre capillaire, élimine le casse et restaure l'élasticité des cheveux.",
     benefits: ['Reconstruction intense', 'Pour cheveux décolorés', 'Élimine le casse', 'Restaure l\'élasticité'],
-    img: 'images/dh07_shampoing_keratine.jpg',
+    img: 'images/dh11_masque_keratine.jpg',
     stripe: 'https://buy.stripe.com/aFaeV53UD3NT9jtg2qcfK3Y'
   },
   {
@@ -117,7 +117,7 @@ const PRODUCTS = [
     price: 9,
     description: "Ce leave-in s'applique sur cheveux humides après le shampooing, sans rincer. Il scelle l'hydratation, facilite le coiffage, réduit le temps de séchage et protège des agressions extérieures tout au long de la journée.",
     benefits: ['Sans rinçage', 'Scelle l\'hydratation', 'Facilite le coiffage', 'Protection quotidienne'],
-    img: 'images/dh09_apres_shampoing.jpg',
+    img: 'images/dh12_leavein.jpg',
     stripe: 'https://buy.stripe.com/5kQ00bgHpckp0MX8zYcfK3Z'
   },
   {
@@ -137,7 +137,7 @@ const PRODUCTS = [
     price: 8,
     description: "Un spray quotidien léger pour hydrater et rafraîchir les cheveux entre les lavages. Sa formule à base d'aloe vera et d'extraits végétaux réhydrate instantanément les cheveux bouclés, texturés ou en locks sans les alourdir.",
     benefits: ['Usage quotidien', 'Aloe vera + extraits végétaux', 'Idéal entre les lavages', 'Légère et non grasse'],
-    img: 'images/dh06_shampoing_argan.jpg',
+    img: 'images/dh14_spray_hydratant.jpg',
     stripe: 'https://buy.stripe.com/8x29AL3UD5W1eDN4jIcfK41'
   },
   {
@@ -147,7 +147,7 @@ const PRODUCTS = [
     price: 7,
     description: "L'huile essentielle de tea tree (arbre à thé) est reconnue pour ses propriétés antibactériennes et antifongiques. Elle combat efficacement les pellicules, les démangeaisons et purifie le cuir chevelu pour des cheveux sains à la racine.",
     benefits: ['Antipelliculaire naturel', 'Anti-démangeaisons', 'Purifie le cuir chevelu', 'Propriétés antifongiques'],
-    img: 'images/dh04_huile_jojoba.jpg',
+    img: 'images/dh15_teatree.jpg',
     stripe: 'https://buy.stripe.com/eVq7sDfDlgAFcvFaI6cfK42'
   },
 
@@ -169,7 +169,7 @@ const PRODUCTS = [
     price: 22,
     description: "Set de 7 extensions clip-in en cheveux humains Remy 40cm pour un look naturel et volumisé. La longueur idéale pour les débutantes. Invisible une fois en place, se mélange parfaitement à vos cheveux naturels.",
     benefits: ['Cheveux humains Remy', 'Longueur idéale débutantes', 'Look naturel garanti', '7 clips inclus'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh17_extension_40cm.jpg',
     stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44'
   },
   {
@@ -179,7 +179,7 @@ const PRODUCTS = [
     price: 35,
     description: "20 bandes tape-in en cheveux humains Remy 40cm. La méthode préférée des salons professionnels : invisible, ultra-plate et très naturelle. Durée 2-3 mois. Peut être réposée après repose en salon.",
     benefits: ['Ultra-plates et invisibles', 'Durée 2-3 mois', 'Qualité salon pro', 'Réutilisables'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh18_extension_tapein.jpg',
     stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45'
   },
   {
@@ -189,7 +189,7 @@ const PRODUCTS = [
     price: 39,
     description: "Extensions à bonds de kératine en cheveux humains Remy 50cm. La méthode la plus naturelle et durable. Chaque mèche est fixée individuellement à la kératine fondue. Durée de tenue 3-6 mois avec un entretien adapté.",
     benefits: ['Mèches individuelles', 'Durée 3-6 mois', 'Résultat le plus naturel', 'Cheveux humains Remy'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh19_extension_keratine.jpg',
     stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46'
   },
   {
@@ -199,7 +199,7 @@ const PRODUCTS = [
     price: 25,
     description: "Trame de cheveux humains Remy 50cm 100g pour tissage. La méthode classique pour les tissages cousus sur tresses. Dense, durable et compatible avec tous les types de tissage. Colorable et coiffable au fer.",
     benefits: ['100g de cheveux Remy', 'Pour tissage cousu', 'Colorable', 'Dense et durble'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh20_extension_weft.jpg',
     stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47'
   },
   {
@@ -209,7 +209,7 @@ const PRODUCTS = [
     price: 30,
     description: "Extensions nano ring en cheveux humains 50cm. La méthode la plus douce : chaque mèche est fixée par un minuscule anneau métallique, sans colle ni chaleur. Invisible même avec une queue de cheval haute.",
     benefits: ['Sans colle ni chaleur', 'Nano anneaux invisibles', 'Préserve vos cheveux', 'Très naturel'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh21_extension_nanoring.jpg',
     stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00'
   },
   {
@@ -219,7 +219,7 @@ const PRODUCTS = [
     price: 19,
     description: "100g de cheveux humains naturels en vrac, idéaux pour les tresses, tissages et extensions au crochet. Doux, résistants et naturels. Disponibles en noir naturel, compatibles avec tous types de tresses.",
     benefits: ['100g cheveux humains', 'Pour tresses et tissages', 'Doux et résistants', 'Noir naturel'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh22_rajout_vrac.jpg',
     stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01'
   },
   {
@@ -229,7 +229,7 @@ const PRODUCTS = [
     price: 33,
     description: "L'extension halo se porte avec un fil invisible autour de la tête. Aucune fixation permanente, aucun dommage. Se pose en 30 secondes, se retire en 10. Idéale pour les occasions spéciales ou le port quotidien sans engagement.",
     benefits: ['Fil invisible', 'Pose en 30 secondes', 'Aucun dommage', 'Occasions et quotidien'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh23_extension_halo.jpg',
     stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02'
   },
   {
@@ -239,7 +239,7 @@ const PRODUCTS = [
     price: 22,
     description: "Une queue de cheval en cheveux humains Remy 50cm avec clip de fixation discret. Se pose en 2 minutes pour une queue de cheval longue, volumineuse et 100% naturelle. Parfaite pour les jours où vous voulez un look sophistiqué.",
     benefits: ['Cheveux humains Remy', 'Pose en 2 minutes', 'Clip discret', 'Look sophistiqué'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh24_extension_ponytail.jpg',
     stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03'
   },
   {
@@ -249,7 +249,7 @@ const PRODUCTS = [
     price: 29,
     description: "Set de 7 extensions clip-in bouclées en cheveux humains Remy 40cm. Idéales pour les femmes aux cheveux naturellement bouclés ou frisés qui veulent ajouter du volume et de la longueur tout en gardant leur texture naturelle.",
     benefits: ['Texture bouclée naturelle', 'Cheveux humains Remy', '7 clips discrets', 'Compatible cheveux naturels'],
-    img: 'images/dh16_extension_clip.jpg',
+    img: 'images/dh25_extension_bouclees.jpg',
     stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04'
   },
 
@@ -281,7 +281,7 @@ const PRODUCTS = [
     price: 65,
     description: "Perruque lace front 13x4 ondulée body wave en cheveux humains 20 pouces, densité 150%. Les ondulations body wave sont les plus polyvalentes : elles s'adaptent à tous les styles et donnent un volume naturel spectaculaire.",
     benefits: ['Body wave polyvalente', '20 pouces glamour', 'Volume naturel', 'Tous styles possibles'],
-    img: 'images/dh26_perruque_lace_lisse.jpg',
+    img: 'images/dh28_perruque_bodywave.jpg',
     stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07'
   },
   {
@@ -291,7 +291,7 @@ const PRODUCTS = [
     price: 57,
     description: "Perruque full lace pixie cut en cheveux humains. La full lace permet de coiffer dans toutes les directions, faire une queue de cheval haute ou des tresses. La coupe pixie est tendance, facile à porter et donne un look sophistiqué.",
     benefits: ['Full lace 360°', 'Coupe pixie tendance', 'Queue de cheval possible', 'Look sophistiqué'],
-    img: 'images/dh26_perruque_lace_lisse.jpg',
+    img: 'images/dh29_perruque_pixie.jpg',
     stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08'
   },
   {
@@ -301,7 +301,7 @@ const PRODUCTS = [
     price: 65,
     description: "Perruque lace front kinky curly en cheveux humains 20 pouces. La texture kinky curly reproduit parfaitement les cheveux naturellement frisés et afro. Parfaite pour les femmes qui veulent une perruque qui ressemble à leurs propres cheveux.",
     benefits: ['Texture kinky curly', 'Ressemble à vos cheveux', '20 pouces de volume', 'Identité naturelle'],
-    img: 'images/dh27_perruque_bouclée.jpg',
+    img: 'images/dh30_perruque_kinky.jpg',
     stripe: 'https://buy.stripe.com/eVq8wH4YHfwB2V5bMacfL09'
   },
   {
@@ -321,7 +321,7 @@ const PRODUCTS = [
     price: 90,
     description: "La perruque 360 lace offre une lace tout autour de la tête pour un coiffage total : queue de cheval haute, chignon, tresses — tout est possible. En cheveux humains ondulés, densité 180%. Le summum de la liberté capillaire.",
     benefits: ['Lace 360° tout autour', 'Coiffage illimité', 'Densité 180%', 'Cheveux humains ondulés'],
-    img: 'images/dh31_perruque_hd.jpg',
+    img: 'images/dh32_perruque_360.jpg',
     stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b'
   },
   {
@@ -331,7 +331,7 @@ const PRODUCTS = [
     price: 50,
     description: "Perruque bob courte lace front en cheveux humains. La coupe bob est indémodable et flatteuse pour tous les visages. Légère, facile à coiffer et à entretenir. Idéale pour un look chic et naturel au quotidien.",
     benefits: ['Bob flatteuse tous visages', 'Légère et confortable', 'Facile d\'entretien', 'Cheveux humains'],
-    img: 'images/dh26_perruque_lace_lisse.jpg',
+    img: 'images/dh33_perruque_bob.jpg',
     stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c'
   },
   {
@@ -341,7 +341,7 @@ const PRODUCTS = [
     price: 69,
     description: "Perruque lace front en cheveux humains avec effet ombré naturel (noir aux racines, dégradé châtain/blond doré en pointes). 18 pouces, densité 150%. L'ombré donne un effet soleil naturel sans coloration agressive.",
     benefits: ['Ombré naturel tendance', 'Effet soleil sans colorant', '18 pouces — longueur idéale', 'Densité 150%'],
-    img: 'images/dh27_perruque_bouclée.jpg',
+    img: 'images/dh34_perruque_ombre.jpg',
     stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d'
   },
   {
@@ -351,7 +351,7 @@ const PRODUCTS = [
     price: 75,
     description: "Perruque lace front avec mèches highlight naturelles en cheveux humains. Les reflets chaleureux donnent du relief et de la profondeur, créant l'illusion d'une couleur réalisée en salon. Résultat sophistiqué sans effort.",
     benefits: ['Mèches highlight naturelles', 'Relief et profondeur', 'Look salon sans effort', 'Cheveux humains'],
-    img: 'images/dh31_perruque_hd.jpg',
+    img: 'images/dh35_perruque_highlight.jpg',
     stripe: 'https://buy.stripe.com/bJe00b1MvfwB67h7vUcfL0e'
   },
 
