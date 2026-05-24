@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiamondHair — Extensions, Perruques & Produits Cheveux Naturels</title>
+  <meta name="description" content="DiamondHair : votre boutique spécialisée en extensions cheveux humains, perruques lace front, faux locks et produits naturels pour cheveux. Livraison France, Belgique, Suisse.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="index.html" class="logo">Diamond<span>Hair</span></a>
+  <nav>
+    <a href="#catalogue">Boutique</a>
+    <a href="#pourquoi">Pourquoi nous</a>
+    <a href="mailto:naturesurvi@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Tes cheveux,<br><span>ta couronne.</span> 💎</h1>
+    <p>Extensions, perruques, faux locks et soins naturels pour sublimer tous types de cheveux. Livraison France, Belgique, Suisse.</p>
+    <div class="hero-badges">
+      <span class="badge">💇 Extensions Remy</span>
+      <span class="badge">👑 Lace Front HD</span>
+      <span class="badge">🔒 Faux Locks</span>
+      <span class="badge">🌿 Soins Naturels</span>
+    </div>
+    <a href="#catalogue" class="btn-hero">✨ Découvrir la boutique</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-band">
+  <div class="stat-item">
+    <div class="stat-num">55</div>
+    <div class="stat-label">Produits</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">6</div>
+    <div class="stat-label">Catégories</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">4€</div>
+    <div class="stat-label">À partir de</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">🚀</div>
+    <div class="stat-label">Livraison rapide</div>
+  </div>
+</div>
+
+<!-- CATALOGUE -->
+<section class="catalogue-section" id="catalogue">
+  <h2 class="section-title">Notre Boutique</h2>
+  <p class="section-sub">Extensions, perruques, faux locks et soins pour tous types de cheveux</p>
+
+  <div class="filters" id="filters"></div>
+  <div class="products-grid" id="products-grid"></div>
+</section>
+
+<!-- POURQUOI NOUS -->
+<section class="why-section" id="pourquoi">
+  <h2 class="section-title" style="color:var(--or)">Pourquoi DiamondHair ?</h2>
+  <div class="why-grid">
+    <div class="why-item">
+      <div class="why-icon">💎</div>
+      <div class="why-title">Qualité Premium</div>
+      <div class="why-text">Cheveux humains Remy sélectionnés, produits naturels sans sulfates ni parabènes.</div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🔒</div>
+      <div class="why-title">Paiement Sécurisé</div>
+      <div class="why-text">Paiement 100% sécurisé via Stripe. Visa, Mastercard, Apple Pay, Google Pay.</div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🚀</div>
+      <div class="why-title">Livraison Rapide</div>
+      <div class="why-text">Livraison France, Belgique, Suisse et Luxembourg. Suivi de commande inclus.</div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">💌</div>
+      <div class="why-title">Service Client</div>
+      <div class="why-text">Des questions ? Contactez-nous par email. Réponse sous 24h.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="cgv.html">CGV</a>
+    <a href="mailto:naturesurvi@gmail.com">Contact</a>
+    <a href="mentions-legales.html">Mentions légales</a>
+  </div>
+  <p>© 2026 DiamondHair — Bègles, France — <a href="mailto:naturesurvi@gmail.com">naturesurvi@gmail.com</a></p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" id="modal">
+    <img src="" alt="" class="modal-img" id="modal-img">
+    <div class="modal-body">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-cat" id="modal-cat"></div>
+      <div class="modal-name" id="modal-name"></div>
+      <div class="modal-subtitle" id="modal-subtitle"></div>
+      <p class="modal-desc" id="modal-desc"></p>
+      <ul class="modal-benefits" id="modal-benefits"></ul>
+      <div class="modal-price" id="modal-price"></div>
+      <a href="#" class="btn-stripe" id="modal-btn" target="_blank">💳 Commander maintenant</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/products.js"></script>
+<script>
+const CAT_LABELS = {
+  soins: '💧 Soins & Huiles',
+  extensions: '💇 Extensions',
+  perruques: '👑 Perruques',
+  'locks-faux': '🔒 Faux Locks',
+  'locks-soin': '🌿 Soins Locks',
+  accessoires: '🪮 Accessoires'
+};
+
+let currentCat = 'all';
+
+// FILTRES
+const filtersEl = document.getElementById('filters');
+CATEGORIES.forEach(cat => {
+  const btn = document.createElement('button');
+  btn.className = 'filter-btn' + (cat.id === 'all' ? ' active' : '');
+  btn.textContent = cat.label;
+  btn.onclick = () => {
+    currentCat = cat.id;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderProducts();
+  };
+  filtersEl.appendChild(btn);
+});
+
+// PRODUITS
+function renderProducts() {
+  const grid = document.getElementById('products-grid');
+  const filtered = currentCat === 'all' ? PRODUCTS : PRODUCTS.filter(p => p.cat === currentCat);
+  grid.innerHTML = filtered.map(p => `
+    <div class="product-card" onclick="openModal('${p.id}')">
+      <img src="${p.img}" alt="${p.name}" class="card-img" loading="lazy" onerror="this.style.background='#f0ece4';this.style.display='block'">
+      <div class="card-body">
+        <div class="card-cat">${CAT_LABELS[p.cat] || p.cat}</div>
+        <div class="card-name">${p.name}</div>
+        <div class="card-subtitle">${p.subtitle}</div>
+        <div class="card-price">${p.price}€ <span>TTC, livraison incluse</span></div>
+        <button class="btn-buy" onclick="event.stopPropagation(); openStripe('${p.id}')">⚡ Acheter</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openModal(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (!p) return;
+  document.getElementById('modal-img').src = p.img;
+  document.getElementById('modal-img').alt = p.name;
+  document.getElementById('modal-cat').textContent = CAT_LABELS[p.cat] || p.cat;
+  document.getElementById('modal-name').textContent = p.name;
+  document.getElementById('modal-subtitle').textContent = p.subtitle;
+  document.getElementById('modal-desc').textContent = p.description;
+  document.getElementById('modal-benefits').innerHTML = p.benefits.map(b => `<li>${b}</li>`).join('');
+  document.getElementById('modal-price').textContent = p.price + '€';
+  document.getElementById('modal-btn').href = p.stripe;
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function openStripe(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (p) window.open(p.stripe, '_blank');
+}
+
+document.getElementById('modal-close').onclick = closeModal;
+document.getElementById('modal-overlay').onclick = function(e) {
+  if (e.target === this) closeModal();
+};
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+renderProducts();
+</script>
+</body>
+</html>
