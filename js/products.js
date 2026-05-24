@@ -527,7 +527,7 @@ const PRODUCTS = [
     price: 6,
     description: "La serviette microfibre est indispensable pour les cheveux bouclés et naturels. Contrairement aux serviettes classiques, elle absorbe l'eau sans frotter ni créer de frisottis. Le turban se pose en 5 secondes et se maintient seul.",
     benefits: ['Aucun frisotti', 'Absorption rapide', 'Turban auto-maintenu', 'Pour cheveux bouclés'],
-    img: 'images/dh51_bonnet_satin.jpg',
+    img: 'images/dh52_serviette_microfibre.jpg',
     stripe: 'https://buy.stripe.com/8x27sDdvd849brB6rQcfL0v'
   },
   {
@@ -537,7 +537,7 @@ const PRODUCTS = [
     price: 5,
     description: "Ce masseur de cuir chevelu en silicone stimule la microcirculation sanguine pour une pousse accélérée. Il s'utilise pendant le shampooing pour masser le cuir chevelu, répartir les produits et exfolier les cellules mortes.",
     benefits: ['Stimule la circulation', 'Utilisation sous la douche', 'Exfolie le cuir chevelu', 'Silicone doux'],
-    img: 'images/dh51_bonnet_satin.jpg',
+    img: 'images/dh53_brosse_masseur.jpg',
     stripe: 'https://buy.stripe.com/dRm8wH1Mvckp53dg2qcfL0w'
   },
   {
@@ -547,7 +547,7 @@ const PRODUCTS = [
     price: 4,
     description: "Peigne à grandes dents spécialement conçu pour démêler les cheveux bouclés, frisés et naturels sans casse ni douleur. Ses dents larges et espacées glissent à travers les nœuds en douceur. L'outil de base indispensable.",
     benefits: ['Sans casse ni douleur', 'Grandes dents espacées', 'Pour cheveux bouclés', 'Outil de base essentiel'],
-    img: 'images/dh51_bonnet_satin.jpg',
+    img: 'images/dh54_peigne_dents.jpg',
     stripe: 'https://buy.stripe.com/bJe9ALbn5ckp53dcQecfL0x'
   },
   {
@@ -557,7 +557,7 @@ const PRODUCTS = [
     price: 4,
     description: "Aiguille crochet indispensable pour la pose des coiffures crochet braids, faux locks, twists et pour l'entretien des vraies locks. Sa forme en crochet permet d'insérer les mèches de façon précise et de rentrer les bouts rebelles.",
     benefits: ['Pose des faux locks', 'Entretien des vraies locks', 'Rentrer les bouts', 'Outil précis et pratique'],
-    img: 'images/dh51_bonnet_satin.jpg',
+    img: 'images/dh55_aiguille_crochet.jpg',
     stripe: 'https://buy.stripe.com/28E6ozdvd4RXdzJcQecfL0y'
   },
 ];
