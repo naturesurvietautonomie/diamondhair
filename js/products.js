@@ -166,14 +166,14 @@ const PRODUCTS = [
     benefits: ['Cheveux humains Remy', 'Pose en 5 minutes', 'Sans colle ni dommage', 'Colorable et coiffable'],
     img: 'images/dh16_extension_clip.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#2 — Brun très foncé', hex: '#2c1a0e', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#8 — Brun clair',      hex: '#7b4a20', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#27 — Blond fraise',   hex: '#c8922a', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
-      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/28E9AL0IrfwB7blg2qcfK43' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/aFa5kv0Ir3NTdzJ9E2cfL1A' },
+      { couleur: '#2 — Brun très foncé', hex: '#2c1a0e', stripe: 'https://buy.stripe.com/7sY6ozezhfwB2V55nMcfL1B' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/aFa3cncr91FLeDNbMacfL1C' },
+      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/00w28j2Qz7059jtg2qcfL1D' },
+      { couleur: '#8 — Brun clair',      hex: '#7b4a20', stripe: 'https://buy.stripe.com/7sY7sD1MvbgleDN4jIcfL1E' },
+      { couleur: '#27 — Blond fraise',   hex: '#c8922a', stripe: 'https://buy.stripe.com/bJe9ALaj1bgl1R17vUcfL1F' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/fZubITcr94RXfHR6rQcfL1G' },
+      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/8x228jcr9fwB8fp6rQcfL1H' },
     ]
   },
   {
@@ -185,13 +185,13 @@ const PRODUCTS = [
     benefits: ['Cheveux humains Remy', 'Longueur idéale débutantes', 'Look naturel garanti', '7 clips inclus'],
     img: 'images/dh17_extension_40cm.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
-      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
-      { couleur: '#18 — Blond miel',     hex: '#c8a35a', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
-      { couleur: '#30 — Auburn moyen',   hex: '#7a2f1a', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
-      { couleur: '#60 — Blond platine',  hex: '#f0e6c8', stripe: 'https://buy.stripe.com/8x2aEPcr9gAF3Z9dUicfK44' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/00w7sD0Ir84967h9E2cfL1I' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/eVq5kvfDl1FL8fp4jIcfL1J' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/eVqbIT8aT98danx6rQcfL1K' },
+      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/3cI8wH1MvgAF2V5cQecfL1L' },
+      { couleur: '#18 — Blond miel',     hex: '#c8a35a', stripe: 'https://buy.stripe.com/14AbITezhfwBcvF7vUcfL1M' },
+      { couleur: '#30 — Auburn moyen',   hex: '#7a2f1a', stripe: 'https://buy.stripe.com/5kQ14f4YHdot8fp17wcfL1N' },
+      { couleur: '#60 — Blond platine',  hex: '#f0e6c8', stripe: 'https://buy.stripe.com/5kQeV5dvd1FL53d5nMcfL1O' },
     ]
   },
   {
@@ -203,12 +203,12 @@ const PRODUCTS = [
     benefits: ['Ultra-plates et invisibles', 'Durée 2-3 mois', 'Qualité salon pro', 'Réutilisables'],
     img: 'images/dh18_extension_tapein.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',       hex: '#1a1a1a', stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45' },
-      { couleur: '#4 — Brun chocolat',       hex: '#3d2009', stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45' },
-      { couleur: '#6 — Brun châtain',        hex: '#5c3317', stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45' },
-      { couleur: '#18 — Blond miel',         hex: '#c8a35a', stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45' },
-      { couleur: '#1B/#27 — Ombré noir→blond fraise', hex: 'ombre', stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45' },
-      { couleur: '#1B/#60 — Ombré noir→platine',      hex: 'ombre', stripe: 'https://buy.stripe.com/bJeeV53UDach9jt9E2cfK45' },
+      { couleur: '#1B — Noir naturel',       hex: '#1a1a1a', stripe: 'https://buy.stripe.com/14AaEP8aT2JP7blcQecfL1P' },
+      { couleur: '#4 — Brun chocolat',       hex: '#3d2009', stripe: 'https://buy.stripe.com/4gM14f8aT3NT67hcQecfL1Q' },
+      { couleur: '#6 — Brun châtain',        hex: '#5c3317', stripe: 'https://buy.stripe.com/00w6oz1Mvdot3Z903scfL1R' },
+      { couleur: '#18 — Blond miel',         hex: '#c8a35a', stripe: 'https://buy.stripe.com/8x2eV51MvgAFanx17wcfL1S' },
+      { couleur: '#1B/#27 — Ombré noir→blond fraise', hex: 'ombre', stripe: 'https://buy.stripe.com/3cI5kv9eXesx9jt03scfL1T' },
+      { couleur: '#1B/#60 — Ombré noir→platine',      hex: 'ombre', stripe: 'https://buy.stripe.com/aFa14f0Ir3NTgLVg2qcfL1U' },
     ]
   },
   {
@@ -220,14 +220,14 @@ const PRODUCTS = [
     benefits: ['Mèches individuelles', 'Durée 3-6 mois', 'Résultat le plus naturel', 'Cheveux humains Remy'],
     img: 'images/dh19_extension_keratine.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#8 — Brun clair',      hex: '#7b4a20', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#27 — Blond fraise',   hex: '#c8922a', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/dRm14f2Qzesx53d4jIcfK46' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/28E3cn4YHachgLV17wcfL1W' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/5kQ00bcr998d53d3fEcfL1X' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/7sY14fdvdckpfHR7vUcfL1Y' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/cNi5kv0Irbgl2V52bAcfL1Z' },
+      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/14A00bezhgAF2V5cQecfL20' },
+      { couleur: '#8 — Brun clair',      hex: '#7b4a20', stripe: 'https://buy.stripe.com/dRm00bezhach9jt4jIcfL21' },
+      { couleur: '#27 — Blond fraise',   hex: '#c8922a', stripe: 'https://buy.stripe.com/8x2fZ9aj12JP53d17wcfL22' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/aFadR11Mv849anxeYmcfL23' },
     ]
   },
   {
@@ -239,12 +239,12 @@ const PRODUCTS = [
     benefits: ['100g de cheveux Remy', 'Pour tissage cousu', 'Colorable', 'Dense et durable'],
     img: 'images/dh20_extension_weft.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47' },
-      { couleur: '#27 — Blond fraise',   hex: '#c8922a', stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/7sY14f2Qz70553dbMacfK47' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/eVq4gr0Ir2JP8fpg2qcfL24' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/aFa4gr62L7050MX6rQcfL25' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/3cI14f2QzacheDN2bAcfL26' },
+      { couleur: '#27 — Blond fraise',   hex: '#c8922a', stripe: 'https://buy.stripe.com/5kQ9AL1Mvach53deYmcfL27' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/3cI28jbn584953d17wcfL28' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/28E7sD62L4RXgLV2bAcfL29' },
     ]
   },
   {
@@ -256,12 +256,12 @@ const PRODUCTS = [
     benefits: ['Sans colle ni chaleur', 'Nano anneaux invisibles', 'Préserve vos cheveux', 'Très naturel'],
     img: 'images/dh21_extension_nanoring.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00' },
-      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00' },
-      { couleur: '#1B/#27 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00' },
-      { couleur: '#1B/#30 — Ombré noir→auburn',     hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00' },
-      { couleur: '#1B/#60 — Ombré noir→platine',    hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00' },
-      { couleur: '#2/#6 — Ombré brun→châtain',      hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq7sDbn5achcvF7vUcfL00' },
+      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/aFa28jcr9ckpanx9E2cfL2a' },
+      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/bJeeV562Ldot0MX4jIcfL2b' },
+      { couleur: '#1B/#27 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/8x23cn0Ir4RX2V517wcfL2c' },
+      { couleur: '#1B/#30 — Ombré noir→auburn',     hex: 'ombre',   stripe: 'https://buy.stripe.com/5kQ00baj12JPbrB2bAcfL2d' },
+      { couleur: '#1B/#60 — Ombré noir→platine',    hex: 'ombre',   stripe: 'https://buy.stripe.com/bJe9ALgHp849brBcQecfL2e' },
+      { couleur: '#2/#6 — Ombré brun→châtain',      hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq5kv3UDfwB7blaI6cfL2f' },
     ]
   },
   {
@@ -273,12 +273,12 @@ const PRODUCTS = [
     benefits: ['100g cheveux humains', 'Pour tresses et tissages', 'Doux et résistants', 'Noir naturel'],
     img: 'images/dh22_rajout_vrac.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01' },
-      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/bJe5kv1Mv705brBdUicfL01' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/9B6fZ91Mv705eDN2bAcfL2g' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/00w5kv8aT5W1cvF4jIcfL2h' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/6oUfZ9gHpesxfHR8zYcfL2i' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/cNicMX8aT0BH3Z95nMcfL2j' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/8x2aEP9eXdot9jt9E2cfL2k' },
+      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/7sYbIT8aTfwB7blbMacfL2l' },
     ]
   },
   {
@@ -290,13 +290,13 @@ const PRODUCTS = [
     benefits: ['Fil invisible', 'Pose en 30 secondes', 'Aucun dommage', 'Occasions et quotidien'],
     img: 'images/dh23_extension_halo.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
-      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
-      { couleur: '#6 — Brun châtain',               hex: '#5c3317', stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
-      { couleur: '#18 — Blond miel',                hex: '#c8a35a', stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
-      { couleur: '#613 — Blond clair',              hex: '#e8d5a3', stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
-      { couleur: '#1B/#27 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
-      { couleur: '#4/#27 — Ombré chocolat→blond',   hex: 'ombre',   stripe: 'https://buy.stripe.com/5kQ00b9eXesx2V55nMcfL02' },
+      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/00w9ALezhckpfHReYmcfL2m' },
+      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/fZu7sDfDl5W17bl9E2cfL2n' },
+      { couleur: '#6 — Brun châtain',               hex: '#5c3317', stripe: 'https://buy.stripe.com/8x25kv0IrbglbrBeYmcfL2o' },
+      { couleur: '#18 — Blond miel',                hex: '#c8a35a', stripe: 'https://buy.stripe.com/9B63cn9eX3NT0MX7vUcfL2p' },
+      { couleur: '#613 — Blond clair',              hex: '#e8d5a3', stripe: 'https://buy.stripe.com/00wfZ9gHp98dbrBaI6cfL2q' },
+      { couleur: '#1B/#27 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/3cIbITgHp5W12V517wcfL2r' },
+      { couleur: '#4/#27 — Ombré chocolat→blond',   hex: 'ombre',   stripe: 'https://buy.stripe.com/28E8wH4YHbgldzJdUicfL2s' },
     ]
   },
   {
@@ -308,13 +308,13 @@ const PRODUCTS = [
     benefits: ['Cheveux humains Remy', 'Pose en 2 minutes', 'Clip discret', 'Look sophistiqué'],
     img: 'images/dh24_extension_ponytail.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',                  hex: '#050505', stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
-      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
-      { couleur: '#2 — Brun foncé',                 hex: '#2c1a0e', stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
-      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
-      { couleur: '#60 — Blond platine',             hex: '#f0e6c8', stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
-      { couleur: '#1B/#60 — Ombré noir→platine',    hex: 'ombre',   stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
-      { couleur: '#1B/#613 — Ombré noir→blond',     hex: 'ombre',   stripe: 'https://buy.stripe.com/3cI8wHezhbglcvF3fEcfL03' },
+      { couleur: '#1 — Noir jais',                  hex: '#050505', stripe: 'https://buy.stripe.com/8x2fZ9bn52JP9jt3fEcfL2t' },
+      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/4gMfZ90Irckp7bl6rQcfL2u' },
+      { couleur: '#2 — Brun foncé',                 hex: '#2c1a0e', stripe: 'https://buy.stripe.com/8x25kvgHp5W1anx5nMcfL2v' },
+      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/dRm28j9eX7057bldUicfL2w' },
+      { couleur: '#60 — Blond platine',             hex: '#f0e6c8', stripe: 'https://buy.stripe.com/aFa3cnfDlgAFdzJaI6cfL2x' },
+      { couleur: '#1B/#60 — Ombré noir→platine',    hex: 'ombre',   stripe: 'https://buy.stripe.com/aFa7sDfDlfwB53deYmcfL2y' },
+      { couleur: '#1B/#613 — Ombré noir→blond',     hex: 'ombre',   stripe: 'https://buy.stripe.com/7sYbIT4YHckp3Z94jIcfL2z' },
     ]
   },
   {
@@ -326,12 +326,12 @@ const PRODUCTS = [
     benefits: ['Texture bouclée naturelle', 'Cheveux humains Remy', '7 clips discrets', 'Compatible cheveux naturels'],
     img: 'images/dh25_extension_bouclees.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04' },
-      { couleur: '#2 — Brun foncé',                 hex: '#2c1a0e', stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04' },
-      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04' },
-      { couleur: '#33 — Auburn cuivré',             hex: '#8b2500', stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04' },
-      { couleur: '#4/#27 — Ombré chocolat→blond',   hex: 'ombre',   stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04' },
-      { couleur: '#1B/#30 — Ombré noir→auburn',     hex: 'ombre',   stripe: 'https://buy.stripe.com/4gM7sDcr94RX9jt7vUcfL04' },
+      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/00w7sDaj1fwB9jtg2qcfL2A' },
+      { couleur: '#2 — Brun foncé',                 hex: '#2c1a0e', stripe: 'https://buy.stripe.com/5kQeV576Pesx67h8zYcfL2B' },
+      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/bJe4gr62L5W11R1g2qcfL2C' },
+      { couleur: '#33 — Auburn cuivré',             hex: '#8b2500', stripe: 'https://buy.stripe.com/14A00bgHp8492V52bAcfL2D' },
+      { couleur: '#4/#27 — Ombré chocolat→blond',   hex: 'ombre',   stripe: 'https://buy.stripe.com/28E6oz4YH0BH9jtg2qcfL2E' },
+      { couleur: '#1B/#30 — Ombré noir→auburn',     hex: 'ombre',   stripe: 'https://buy.stripe.com/6oUbIT1Mvckp0MXdUicfL2F' },
     ]
   },
 
@@ -345,13 +345,13 @@ const PRODUCTS = [
     benefits: ['Cheveux humains brésiliens', 'Lace 13x4 — raie partout', 'Sans colle possible', 'Densité 150%'],
     img: 'images/dh26_perruque_lace_lisse.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
-      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
-      { couleur: '#18 — Blond miel',     hex: '#c8a35a', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
-      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/fZubIT2QzgAFeDN8zYcfL05' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/eVqfZ9bn50BH7bl03scfL2G' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/28E8wH4YH0BH7blaI6cfL2H' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/3cI4gr8aTbgldzJ2bAcfL2I' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/4gMdR1ezh8498fpcQecfL2J' },
+      { couleur: '#6 — Brun châtain',    hex: '#5c3317', stripe: 'https://buy.stripe.com/8x25kv8aT1FL3Z97vUcfL2K' },
+      { couleur: '#18 — Blond miel',     hex: '#c8a35a', stripe: 'https://buy.stripe.com/8x2aEPfDl849anx03scfL2L' },
+      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/4gM00b8aT0BH8fpcQecfL2M' },
     ]
   },
   {
@@ -363,12 +363,12 @@ const PRODUCTS = [
     benefits: ['Boucles souples et naturelles', '18 pouces / 45cm', 'Colorable', 'Glueless confort'],
     img: 'images/dh27_perruque_bouclée.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/aFa3cn2Qz98deDN6rQcfL06' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/aFa3cn2Qz98deDN6rQcfL06' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/aFa3cn2Qz98deDN6rQcfL06' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/aFa3cn2Qz98deDN6rQcfL06' },
-      { couleur: '#1B/#30 — Ombré noir→auburn',  hex: 'ombre', stripe: 'https://buy.stripe.com/aFa3cn2Qz98deDN6rQcfL06' },
-      { couleur: '#4/#27 — Ombré chocolat→blond',hex: 'ombre', stripe: 'https://buy.stripe.com/aFa3cn2Qz98deDN6rQcfL06' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/bJe8wH62LgAF1R1bMacfL2N' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/14AbITezhfwB53d2bAcfL2O' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/aFaeV5aj1esxdzJcQecfL2P' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/aFabITbn50BHeDN17wcfL2Q' },
+      { couleur: '#1B/#30 — Ombré noir→auburn',  hex: 'ombre', stripe: 'https://buy.stripe.com/28E3cn76P3NTcvF17wcfL2R' },
+      { couleur: '#4/#27 — Ombré chocolat→blond',hex: 'ombre', stripe: 'https://buy.stripe.com/5kQ28jcr94RX2V503scfL2S' },
     ]
   },
   {
@@ -380,13 +380,13 @@ const PRODUCTS = [
     benefits: ['Body wave polyvalente', '20 pouces glamour', 'Volume naturel', 'Tous styles possibles'],
     img: 'images/dh28_perruque_bodywave.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',               hex: '#1a1a1a', stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
-      { couleur: '#4 — Brun chocolat',               hex: '#3d2009', stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
-      { couleur: '#6 — Brun châtain',                hex: '#5c3317', stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
-      { couleur: '#18 — Blond miel',                 hex: '#c8a35a', stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
-      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex: 'ombre',   stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
-      { couleur: '#1B/#613 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
-      { couleur: '#2/#6 — Ombré brun→châtain',       hex: 'ombre',   stripe: 'https://buy.stripe.com/3cI6oz8aTckpfHR7vUcfL07' },
+      { couleur: '#1B — Noir naturel',               hex: '#1a1a1a', stripe: 'https://buy.stripe.com/aFadR13UD5W17bl8zYcfL2T' },
+      { couleur: '#4 — Brun chocolat',               hex: '#3d2009', stripe: 'https://buy.stripe.com/eVqdR1aj1ckpeDN17wcfL2U' },
+      { couleur: '#6 — Brun châtain',                hex: '#5c3317', stripe: 'https://buy.stripe.com/14A9AL76P849fHR8zYcfL2V' },
+      { couleur: '#18 — Blond miel',                 hex: '#c8a35a', stripe: 'https://buy.stripe.com/eVqfZ99eX84953dbMacfL2W' },
+      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex: 'ombre',   stripe: 'https://buy.stripe.com/14A7sDdvd1FLdzJ7vUcfL2Y' },
+      { couleur: '#1B/#613 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/28E8wH62L2JP8fp6rQcfL2Z' },
+      { couleur: '#2/#6 — Ombré brun→châtain',       hex: 'ombre',   stripe: 'https://buy.stripe.com/8x2fZ9aj1ckpeDNbMacfL30' },
     ]
   },
   {
@@ -398,12 +398,12 @@ const PRODUCTS = [
     benefits: ['Full lace 360°', 'Coupe pixie tendance', 'Queue de cheval possible', 'Look sophistiqué'],
     img: 'images/dh29_perruque_pixie.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08' },
-      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/fZu9ALezhach7blcQecfL08' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/fZu14f2Qz0BH1R103scfL31' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/dRm5kv8aT0BH8fpbMacfL32' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/8x2cMX4YH5W10MXcQecfL33' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/dRm14fbn50BH53d17wcfL34' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/8x24gr9eXachanxdUicfL35' },
+      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/aFa3cnbn5bgl2V5eYmcfL36' },
     ]
   },
   {
@@ -415,11 +415,11 @@ const PRODUCTS = [
     benefits: ['Texture kinky curly', 'Ressemble à vos cheveux', '20 pouces de volume', 'Identité naturelle'],
     img: 'images/dh30_perruque_kinky.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/eVq8wH4YHfwB2V5bMacfL09' },
-      { couleur: '#2 — Brun foncé',                 hex: '#2c1a0e', stripe: 'https://buy.stripe.com/eVq8wH4YHfwB2V5bMacfL09' },
-      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/eVq8wH4YHfwB2V5bMacfL09' },
-      { couleur: '#1B/#30 — Ombré noir→auburn',     hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq8wH4YHfwB2V5bMacfL09' },
-      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex:'ombre',   stripe: 'https://buy.stripe.com/eVq8wH4YHfwB2V5bMacfL09' },
+      { couleur: '#1B — Noir naturel',              hex: '#1a1a1a', stripe: 'https://buy.stripe.com/bJe8wHezhdot2V56rQcfL37' },
+      { couleur: '#2 — Brun foncé',                 hex: '#2c1a0e', stripe: 'https://buy.stripe.com/5kQ6oz3UD849gLV6rQcfL38' },
+      { couleur: '#4 — Brun chocolat',              hex: '#3d2009', stripe: 'https://buy.stripe.com/28E8wH76P705anx5nMcfL39' },
+      { couleur: '#1B/#30 — Ombré noir→auburn',     hex: 'ombre',   stripe: 'https://buy.stripe.com/aFa00b0Ir98danxdUicfL3a' },
+      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex:'ombre',   stripe: 'https://buy.stripe.com/aFafZ93UD0BH53d03scfL3b' },
     ]
   },
   {
@@ -431,13 +431,13 @@ const PRODUCTS = [
     benefits: ['HD Lace ultra-invisible', 'Sans colle — confort max', '22 pouces luxueux', "S'adapte à tous les teints"],
     img: 'images/dh31_perruque_hd.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',               hex: '#1a1a1a', stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
-      { couleur: '#2 — Brun foncé',                  hex: '#2c1a0e', stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
-      { couleur: '#4 — Brun chocolat',               hex: '#3d2009', stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
-      { couleur: '#6 — Brun châtain',                hex: '#5c3317', stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
-      { couleur: '#18 — Blond miel',                 hex: '#c8a35a', stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
-      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex: 'ombre',   stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
-      { couleur: '#1B/#613 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/aFaaEPezh849dzJ17wcfL0a' },
+      { couleur: '#1B — Noir naturel',               hex: '#1a1a1a', stripe: 'https://buy.stripe.com/7sYdR1cr93NTbrB9E2cfL3c' },
+      { couleur: '#2 — Brun foncé',                  hex: '#2c1a0e', stripe: 'https://buy.stripe.com/aFabIT76P5W11R1dUicfL3d' },
+      { couleur: '#4 — Brun chocolat',               hex: '#3d2009', stripe: 'https://buy.stripe.com/eVq5kvgHp1FL2V517wcfL3e' },
+      { couleur: '#6 — Brun châtain',                hex: '#5c3317', stripe: 'https://buy.stripe.com/14AeV54YHbgl0MXaI6cfL3f' },
+      { couleur: '#18 — Blond miel',                 hex: '#c8a35a', stripe: 'https://buy.stripe.com/dRm8wH1MvesxgLV7vUcfL3g' },
+      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex: 'ombre',   stripe: 'https://buy.stripe.com/eVqeV5cr9esx2V503scfL3h' },
+      { couleur: '#1B/#613 — Ombré noir→blond',      hex: 'ombre',   stripe: 'https://buy.stripe.com/3cI5kvezh1FL1R1g2qcfL3j' },
     ]
   },
   {
@@ -449,12 +449,12 @@ const PRODUCTS = [
     benefits: ['Lace 360° tout autour', 'Coiffage illimité', 'Densité 180%', 'Cheveux humains ondulés'],
     img: 'images/dh32_perruque_360.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',               hex: '#1a1a1a', stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b' },
-      { couleur: '#4 — Brun chocolat',               hex: '#3d2009', stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b' },
-      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex: 'ombre',   stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b' },
-      { couleur: '#1B/#30 — Ombré noir→auburn',      hex: 'ombre',   stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b' },
-      { couleur: '#1B/#60 — Ombré noir→platine',     hex: 'ombre',   stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b' },
-      { couleur: '#2/#24 — Ombré brun→blond doré',   hex: 'ombre',   stripe: 'https://buy.stripe.com/00waEP3UDdot53d5nMcfL0b' },
+      { couleur: '#1B — Noir naturel',               hex: '#1a1a1a', stripe: 'https://buy.stripe.com/00waEP9eXfwB2V5eYmcfL3k' },
+      { couleur: '#4 — Brun chocolat',               hex: '#3d2009', stripe: 'https://buy.stripe.com/9B6cMX3UD0BHcvF8zYcfL3l' },
+      { couleur: '#1B/#27 — Ombré noir→blond fraise',hex: 'ombre',   stripe: 'https://buy.stripe.com/9B6dR19eXbgldzJg2qcfL3m' },
+      { couleur: '#1B/#30 — Ombré noir→auburn',      hex: 'ombre',   stripe: 'https://buy.stripe.com/cNicMX2Qz0BHbrB4jIcfL3n' },
+      { couleur: '#1B/#60 — Ombré noir→platine',     hex: 'ombre',   stripe: 'https://buy.stripe.com/aFaaEPcr91FLfHR3fEcfL3o' },
+      { couleur: '#2/#24 — Ombré brun→blond doré',   hex: 'ombre',   stripe: 'https://buy.stripe.com/4gM5kvgHpbgl9jtdUicfL3p' },
     ]
   },
   {
@@ -466,12 +466,12 @@ const PRODUCTS = [
     benefits: ['Bob flatteuse tous visages', 'Légère et confortable', "Facile d'entretien", 'Cheveux humains'],
     img: 'images/dh33_perruque_bob.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c' },
-      { couleur: '#18 — Blond miel',     hex: '#c8a35a', stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c' },
-      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/fZu7sD3UD5W1anxeYmcfL0c' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/fZu8wH0IrgAFbrBdUicfL3q' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/dRmaEP0Irach1R1dUicfL3r' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/14A14fezhckpdzJ4jIcfL3s' },
+      { couleur: '#18 — Blond miel',     hex: '#c8a35a', stripe: 'https://buy.stripe.com/fZu4grdvdach3Z9cQecfL3t' },
+      { couleur: '#613 — Blond clair',   hex: '#e8d5a3', stripe: 'https://buy.stripe.com/8x26oz3UD5W13Z917wcfL3u' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/eVqfZ99eX4RX8fp3fEcfL3v' },
     ]
   },
   {
@@ -483,14 +483,14 @@ const PRODUCTS = [
     benefits: ['Ombré naturel tendance', 'Effet soleil sans colorant', '18 pouces — longueur idéale', 'Densité 150%'],
     img: 'images/dh34_perruque_ombre.jpg',
     variants: [
-      { couleur: '#1B/#27 — Noir→blond fraise',     hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#1B/#30 — Noir→auburn',           hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#1B/#60 — Noir→platine',          hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#1B/#613 — Noir→blond',           hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#2/#6 — Brun foncé→châtain',      hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#2/#24 — Brun→blond doré',        hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#4/#27 — Chocolat→blond fraise',  hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
-      { couleur: '#6/#20 — Châtain→blond doré',     hex: 'ombre', stripe: 'https://buy.stripe.com/00wcMX8aT3NTcvF8zYcfL0d' },
+      { couleur: '#1B/#27 — Noir→blond fraise',     hex: 'ombre', stripe: 'https://buy.stripe.com/fZu6oz0Ir1FL7bl2bAcfL3w' },
+      { couleur: '#1B/#30 — Noir→auburn',           hex: 'ombre', stripe: 'https://buy.stripe.com/dRmbITezhckpdzJ2bAcfL3x' },
+      { couleur: '#1B/#60 — Noir→platine',          hex: 'ombre', stripe: 'https://buy.stripe.com/aFa6oz8aTbglfHR03scfL3y' },
+      { couleur: '#1B/#613 — Noir→blond',           hex: 'ombre', stripe: 'https://buy.stripe.com/4gM28jbn54RX8fp03scfL3z' },
+      { couleur: '#2/#6 — Brun foncé→châtain',      hex: 'ombre', stripe: 'https://buy.stripe.com/28E5kvaj14RX7bl9E2cfL3A' },
+      { couleur: '#2/#24 — Brun→blond doré',        hex: 'ombre', stripe: 'https://buy.stripe.com/5kQfZ91Mv98dcvFdUicfL3B' },
+      { couleur: '#4/#27 — Chocolat→blond fraise',  hex: 'ombre', stripe: 'https://buy.stripe.com/7sY8wHcr9ach0MX03scfL3C' },
+      { couleur: '#6/#20 — Châtain→blond doré',     hex: 'ombre', stripe: 'https://buy.stripe.com/3cI9ALdvddotanx8zYcfL3D' },
     ]
   },
   {
@@ -502,11 +502,11 @@ const PRODUCTS = [
     benefits: ['Mèches highlight naturelles', 'Relief et profondeur', 'Look salon sans effort', 'Cheveux humains'],
     img: 'images/dh35_perruque_highlight.jpg',
     variants: [
-      { couleur: '#1B/#4/#27 — Noir+Chocolat+Blond', hex: 'ombre', stripe: 'https://buy.stripe.com/bJe00b1MvfwB67h7vUcfL0e' },
-      { couleur: '#4/#27 — Chocolat→blond fraise',   hex: 'ombre', stripe: 'https://buy.stripe.com/bJe00b1MvfwB67h7vUcfL0e' },
-      { couleur: '#2/#6 — Brun foncé→châtain',       hex: 'ombre', stripe: 'https://buy.stripe.com/bJe00b1MvfwB67h7vUcfL0e' },
-      { couleur: '#1B/#6 — Noir→châtain',            hex: 'ombre', stripe: 'https://buy.stripe.com/bJe00b1MvfwB67h7vUcfL0e' },
-      { couleur: '#12/#613 — Brun clair→blond',      hex: 'ombre', stripe: 'https://buy.stripe.com/bJe00b1MvfwB67h7vUcfL0e' },
+      { couleur: '#1B/#4/#27 — Noir+Chocolat+Blond', hex: 'ombre', stripe: 'https://buy.stripe.com/7sYeV58aTgAF7blcQecfL3E' },
+      { couleur: '#4/#27 — Chocolat→blond fraise',   hex: 'ombre', stripe: 'https://buy.stripe.com/cNi7sD2QzbgldzJ03scfL3F' },
+      { couleur: '#2/#6 — Brun foncé→châtain',       hex: 'ombre', stripe: 'https://buy.stripe.com/fZu00b76Pdot0MXdUicfL3G' },
+      { couleur: '#1B/#6 — Noir→châtain',            hex: 'ombre', stripe: 'https://buy.stripe.com/cNicMX2Qzdot8fp4jIcfL3H' },
+      { couleur: '#12/#613 — Brun clair→blond',      hex: 'ombre', stripe: 'https://buy.stripe.com/14A7sD0Irckp67hg2qcfL3I' },
     ]
   },
 
@@ -520,12 +520,12 @@ const PRODUCTS = [
     benefits: ['Pack x6 mèches', 'Technique crochet', 'Aspect naturel', 'Pose en quelques heures'],
     img: 'images/dh36_faux_locks.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/eVqaEP2Qz1FL2V52bAcfL0f' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/eVqaEP2Qz1FL2V52bAcfL0f' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/eVqaEP2Qz1FL2V52bAcfL0f' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/eVqaEP2Qz1FL2V52bAcfL0f' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/eVqaEP2Qz1FL2V52bAcfL0f' },
-      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/eVqaEP2Qz1FL2V52bAcfL0f' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/4gMaEP1MvgAFeDN17wcfL3J' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/fZucMXezh3NT2V5bMacfL3K' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/fZu4graj1ach9jtg2qcfL3L' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/9B600b62LgAF3Z9cQecfL3M' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/7sY28j62L2JPeDN03scfL3N' },
+      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/00w14f3UD1FLeDN7vUcfL3O' },
     ]
   },
   {
@@ -537,12 +537,12 @@ const PRODUCTS = [
     benefits: ['Bouts bouclés bohèmes', 'Style goddess tendance', 'Pack x6', 'Coiffure protectrice'],
     img: 'images/dh37_goddess_locs.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g' },
-      { couleur: '#30 — Auburn moyen',   hex: '#7a2f1a', stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g' },
-      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/6oUaEPgHp849fHR8zYcfL0g' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/5kQ8wH9eX7052V53fEcfL3P' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/cNi00b1Mvckp2V517wcfL3Q' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/14AfZ9bn5bgl1R103scfL3R' },
+      { couleur: '#30 — Auburn moyen',   hex: '#7a2f1a', stripe: 'https://buy.stripe.com/8x2dR1dvd4RX7bl5nMcfL3S' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/eVq4grcr9esx1R1g2qcfL3T' },
+      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/bJe3cngHp849dzJdUicfL3U' },
     ]
   },
   {
@@ -554,11 +554,11 @@ const PRODUCTS = [
     benefits: ['Très longues 36 pouces', 'Effet naturel authentique', 'Aspect dreadlocks vraies', 'Pack x4'],
     img: 'images/dh38_distressed_locs.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/9B68wH62L98d2V52bAcfL0h' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/9B68wH62L98d2V52bAcfL0h' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/9B68wH62L98d2V52bAcfL0h' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/9B68wH62L98d2V52bAcfL0h' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/9B68wH62L98d2V52bAcfL0h' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/fZu00b0Ir8499jt8zYcfL3V' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/8x228j9eX705cvFaI6cfL3W' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/28E5kv0IrgAF0MX4jIcfL3X' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/dRm5kvaj13NTgLVaI6cfL3Y' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/fZufZ94YHach3Z98zYcfL3Z' },
     ]
   },
   {
@@ -570,10 +570,10 @@ const PRODUCTS = [
     benefits: ['Style boho hippie', 'Fils colorés décoratifs', 'Pack x6', "Parfait pour l'été"],
     img: 'images/dh39_boho_locs.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/28E4gr1Mv98d2V56rQcfL0i' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/28E4gr1Mv98d2V56rQcfL0i' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/28E4gr1Mv98d2V56rQcfL0i' },
-      { couleur: 'Mix tie-dye coloré',   hex: 'ombre',   stripe: 'https://buy.stripe.com/28E4gr1Mv98d2V56rQcfL0i' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/3cIdR10Ir5W153d03scfL40' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/6oU00b1MvesxanxdUicfL41' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/28E3cn1Mv1FL3Z96rQcfL42' },
+      { couleur: 'Mix tie-dye coloré',   hex: 'ombre',   stripe: 'https://buy.stripe.com/eVq00b1MvgAF3Z9bMacfL43' },
     ]
   },
   {
@@ -585,12 +585,12 @@ const PRODUCTS = [
     benefits: ['Ultra-légères et douces', 'Pré-bouclées express', 'Pack x6', 'Coiffure la plus confortable'],
     img: 'images/dh40_soft_locs.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/3cI7sD4YH1FLgLV03scfL0j' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/eVqaEPbn598d8fpbMacfL44' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/bJe7sDcr9gAFgLVg2qcfL45' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/3cI28jezhckpbrB03scfL46' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/5kQ7sDfDl0BH67hg2qcfL47' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/4gM4gr3UD1FL2V517wcfM00' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/00w5kv2QzckpfHR8zYcfM01' },
     ]
   },
   {
@@ -602,12 +602,12 @@ const PRODUCTS = [
     benefits: ['Texture soyeuse unique', 'Entre twist et locks', 'Aspect brillant élégant', 'Pack x6'],
     img: 'images/dh41_passion_twist.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k' },
-      { couleur: '#30 — Auburn moyen',   hex: '#7a2f1a', stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k' },
-      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/6oU28j62L3NT3Z99E2cfL0k' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/8x27sD3UD98dgLV03scfM02' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/bJebITaj14RX1R1g2qcfM03' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/dRm9ALfDlfwBeDNaI6cfM04' },
+      { couleur: '#30 — Auburn moyen',   hex: '#7a2f1a', stripe: 'https://buy.stripe.com/5kQ4grcr998dbrBg2qcfM05' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/28EeV5cr90BHanx9E2cfM06' },
+      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/dRm00baj13NT2V53fEcfM07' },
     ]
   },
   {
@@ -619,11 +619,11 @@ const PRODUCTS = [
     benefits: ['Format court pratique', 'Texture spiralée légère', 'Pack x6', 'Idéal au quotidien'],
     img: 'images/dh42_spring_twist.jpg',
     variants: [
-      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/dRm00b8aTbgl67heYmcfL0l' },
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/dRm00b8aTbgl67heYmcfL0l' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/dRm00b8aTbgl67heYmcfL0l' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/dRm00b8aTbgl67heYmcfL0l' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/dRm00b8aTbgl67heYmcfL0l' },
+      { couleur: '#1 — Noir jais',       hex: '#050505', stripe: 'https://buy.stripe.com/14A9ALaj1dot53d6rQcfM08' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/28E9AL76Pckp7blaI6cfM09' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/28E5kv76Pbgl9jt2bAcfM0a' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/5kQeV5ezh2JP8fpdUicfM0b' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/aFa28jfDlesxcvFg2qcfM0c' },
     ]
   },
   {
@@ -635,12 +635,12 @@ const PRODUCTS = [
     benefits: ['LA coiffure tendance', 'Boucles légères papillon', 'Viral sur réseaux sociaux', 'Pack x6'],
     img: 'images/dh43_butterfly_locs.jpg',
     variants: [
-      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m' },
-      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m' },
-      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m' },
-      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m' },
-      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m' },
-      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/dRmbIT76Pdot0MX5nMcfL0m' },
+      { couleur: '#1B — Noir naturel',   hex: '#1a1a1a', stripe: 'https://buy.stripe.com/00w6ozbn50BHanx7vUcfM0d' },
+      { couleur: '#2 — Brun foncé',      hex: '#2c1a0e', stripe: 'https://buy.stripe.com/aFa00baj15W19jt9E2cfM0e' },
+      { couleur: '#4 — Brun chocolat',   hex: '#3d2009', stripe: 'https://buy.stripe.com/3cI7sD1Mv8490MX17wcfM0f' },
+      { couleur: '#33 — Auburn cuivré',  hex: '#8b2500', stripe: 'https://buy.stripe.com/5kQ4grezh0BH53daI6cfM0g' },
+      { couleur: '#99J — Bordeaux',      hex: '#4a0010', stripe: 'https://buy.stripe.com/5kQ3cn4YHckp7blcQecfM0h' },
+      { couleur: '#350 — Gingembre',     hex: '#b84a00', stripe: 'https://buy.stripe.com/cNieV50IrachbrB5nMcfM0i' },
     ]
   },
 
